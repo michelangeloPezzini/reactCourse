@@ -1,9 +1,12 @@
 import "./App.css";
+import HelloWordTeste from "./components/HelloWorld";
+import NewPerson from "./components/NewPerson";
 
 function App() {
   return (
     <div className="App">
-      <h1>Criando o primeiro app</h1>
+      <HelloWordTeste />
+      <NewPerson name="Michelangelo" idade = "24" title="Programador"/>
     </div>
   );
 }
